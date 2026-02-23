@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.hero {
+    padding: 80px 20px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+.screenshots img {
+    max-width: 250px;
+    margin: 10px;
+}
+
+footer {
+    padding: 40px;
+    background: #eee;
+}
