@@ -9,6 +9,7 @@ body {
 .hero {
     padding: 80px 20px;
     background: white;
+    text-align: center;
 }
 
 .hero h1 {
@@ -25,9 +26,18 @@ body {
     border-radius: 8px;
 }
 
+.screenshots,
+.features {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
 .screenshots img {
     max-width: 250px;
     margin: 10px;
+    display: inline-block;
 }
 
 .features ul {
