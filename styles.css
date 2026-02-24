@@ -85,8 +85,12 @@ h2 {
     font-size: 20px;
 }
 
-h1, h2, p, li {
+h1, h2, li {
     color: #ffffff;
+}
+
+p {
+    color: #4A576F; /* Slate blue for paragraphs */
 }
 
 footer a {
