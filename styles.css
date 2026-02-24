@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #B2BEB5; /* Sage Green */
-    color: #333;
+    color: #ffffff; /* White text */
 }
 
 /* Hero Section */
@@ -28,13 +28,12 @@ body {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background: #4A576F; /* Slate Blue */
-    color: white;
+    background: #4A576F; /* Slate Blue button */
+    color: #ffffff; /* White text */
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
 }
-
 /* Screenshots Section */
 .screenshots {
     max-width: 1000px;
@@ -84,6 +83,15 @@ h1 {
 h2 {
     margin-top: 40px;
     font-size: 20px;
+}
+
+h1, h2, p, li {
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* Footer */
