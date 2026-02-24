@@ -35,7 +35,7 @@ body {
     border-radius: 8px;
 }
 
-section {
+.policy-container {
     max-width: 800px;
     margin: 60px auto;
     padding: 0 20px;
