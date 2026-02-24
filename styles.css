@@ -15,6 +15,16 @@ body {
     font-size: 3rem;
 }
 
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
 .screenshots img {
     max-width: 250px;
     margin: 10px;
@@ -28,16 +38,6 @@ body {
 .features li {
     margin: 10px 0;
     font-size: 1.1rem;
-}
-
-.button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background: black;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
 }
 
 .policy-container {
