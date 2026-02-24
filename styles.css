@@ -99,3 +99,60 @@ footer {
     text-align: center;
     margin: 60px 0;
 }
+
+/* Company Hero */
+.company-hero {
+    background-color: #4A576F; /* Slate blue for corporate hero */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.company-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.company-hero p {
+    font-size: 1.3rem;
+}
+
+/* Apps Section */
+.apps {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.app-card {
+    background-color: #B2BEB5; /* Sage green background to match Lex Quest page */
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.app-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.app-card h3 {
+    margin: 10px 0 5px 0;
+    font-size: 1.5rem;
+    color: #4A576F; /* Slate blue for headings */
+}
+
+.app-card p {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.app-card .button {
+    background-color: #4A576F; /* Slate blue button */
+    color: white;
+}
