@@ -15,6 +15,11 @@ body {
     font-size: 3rem;
 }
 
+.screenshots img {
+    max-width: 250px;
+    margin: 10px;
+}
+
 .features ul {
     list-style: none;
     padding: 0;
@@ -40,11 +45,6 @@ body {
     margin: 60px auto;
     padding: 0 20px;
     line-height: 1.6;
-}
-
-.screenshots img {
-    max-width: 250px;
-    margin: 10px;
 }
 
 h1 {
