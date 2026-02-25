@@ -74,6 +74,10 @@ body {
     line-height: 1.6;
 }
 
+.policy-container ul li {
+    color: #4A576F; /* Slate blue for lists/bullets */
+}
+
 /* Headings */
 h1 {
     font-size: 40px;
