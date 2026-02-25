@@ -100,12 +100,14 @@ p {
 footer a {
     color: #ffffff;
     text-decoration: underline;
+    font-size: 0.9rem;
 }
 
 /* Footer */
 footer {
     text-align: center;
     margin: 60px 0;
+    font-size: 0.9rem;
 }
 
 /* Company Hero */
