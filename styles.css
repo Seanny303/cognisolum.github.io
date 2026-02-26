@@ -113,6 +113,14 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Footer links row */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 12px; /* space between links and copyright */
+}
+
 /* Company Hero */
 .company-hero {
     background-color: #4A576F; /* Slate blue for corporate hero */
