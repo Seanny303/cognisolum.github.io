@@ -107,6 +107,9 @@ footer a {
 footer {
     text-align: center;
     padding: 40px 10px calc(40px + env(safe-area-inset-bottom));
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     font-size: 0.9rem;
 }
 
