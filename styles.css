@@ -106,7 +106,7 @@ footer a {
 /* Footer */
 footer {
     text-align: center;
-    margin: 60px 10;
+    padding: 40px 10px calc(40px + env(safe-area-inset-bottom));
     font-size: 0.9rem;
 }
 
