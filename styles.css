@@ -103,6 +103,11 @@ footer a {
     font-size: 0.9rem;
 }
 
+footer p {
+    color: #4A576F; /* Slate blue */
+    margin: 0;
+}
+
 /* Footer */
 footer {
     text-align: center;
