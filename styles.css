@@ -15,7 +15,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3rem;  /* rem is a multiple of the default font size, usually 16  */
     margin-bottom: 20px;
 }
 
