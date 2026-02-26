@@ -97,6 +97,22 @@ p {
     color: #4A576F; /* Slate blue for paragraphs */
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    padding: 40px 10px calc(40px + env(safe-area-inset-bottom));
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 footer a {
     color: #ffffff;
     text-decoration: underline;
@@ -106,24 +122,6 @@ footer a {
 footer p {
     color: #4A576F; /* Slate blue */
     margin: 0;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 40px 10px calc(40px + env(safe-area-inset-bottom));
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    font-size: 0.9rem;
-}
-
-/* Footer links row */
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 12px; /* space between links and copyright */
 }
 
 /* Company Hero */
