@@ -140,6 +140,7 @@ footer p {
     max-width: 220px; /* adjust as needed */
     height: auto;
     display: block;
+    margin: 0 auto 20px;
 }
 
 .company-hero h1 {
