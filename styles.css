@@ -44,6 +44,7 @@ body {
 .screenshots h2 {
     font-size: 2rem;
     margin-bottom: 40px;
+    background: #B2BEB5; /* Keep consistent background */
 }
 
 .shot-grid {
