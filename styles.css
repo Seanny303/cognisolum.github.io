@@ -34,18 +34,36 @@ body {
     border-radius: 8px;
     font-weight: 600;
 }
-/* Screenshots Section */
+
 .screenshots {
-    max-width: 1000px;
-    margin: 60px auto;
-    padding: 0 20px;
     text-align: center;
+    padding: 60px 20px;
+    background: #f8f9fb;
 }
 
-.screenshots img {
-    width: 250px;
-    margin: 10px;
-    display: inline-block;
+.screenshots h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.shot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.shot-grid img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 28px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.shot-grid img:hover {
+    transform: translateY(-8px);
 }
 
 /* Features Section */
