@@ -9,7 +9,7 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 80px 20px;
+    padding: 70px 20px; /* top and bottom padding is 80 px and left and right is 20 px --shorthand */
     background: #B2BEB5; /* Keep consistent background */
     text-align: center;
 }
