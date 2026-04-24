@@ -220,3 +220,13 @@ footer p {
     border-radius: 16px; /* optional, for rounded corners */
     margin-bottom: 15px;
 }
+
+/* Larger App Icon */
+.app-card .app-icon2 {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
