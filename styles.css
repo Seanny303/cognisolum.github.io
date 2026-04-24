@@ -37,7 +37,7 @@ body {
 
 .screenshots {
     text-align: center;
-    padding: 60px 20px;
+    padding: 20px 20px 60px 20px;
     background: #B2BEB5; /* Keep consistent background */
 }
 
@@ -175,7 +175,7 @@ footer p {
 /* Apps Section */
 .apps {
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 30px auto 10px auto;
     padding: 0 20px;
     text-align: center;
 }
