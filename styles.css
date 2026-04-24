@@ -38,7 +38,7 @@ body {
 .screenshots {
     text-align: center;
     padding: 60px 20px;
-    background: #f8f9fb;
+    background: #B2BEB5; /* Keep consistent background */
 }
 
 .screenshots h2 {
